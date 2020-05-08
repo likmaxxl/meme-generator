@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+.backgroundImages {
+  margin: 5px 0 0 0;
+}
+.backgroundImages .img img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.backgroundImages .img {
+  position: relative;
+}
+.backgroundImages .img .text {
+  width: 100%;
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 40px;
+  font-family: "Anton", sans-serif;
+  text-shadow: 2px 2px 2px black;
+  letter-spacing: 1.5px;
+}
+.backgroundImages .img .text:nth-of-type(1) {
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+  text-align: center;
+}
+.backgroundImages .img .text:nth-of-type(2) {
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+  text-align: center;
+}

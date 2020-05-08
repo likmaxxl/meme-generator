@@ -1,0 +1,18 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(36,0,16,1) 0%, rgba(88,9,121,1) 39%, rgba(184,0,255,0.5886729691876751) 100%);
+}
+
+header .logo img{
+width:120px;
+position: relative;
+top:-8px;
+}
+header .title h1{
+color:white;
+font-size: 50px;
+line-height: 48px;
+font-weight: 600;
+}
